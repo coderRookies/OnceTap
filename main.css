@@ -1,0 +1,219 @@
+﻿
+
+#life{
+
+  -webkit-box-shadow: 0px 2px 4px #dddcdc;
+  box-shadow: 0px 2px 4px #dddcdc;
+}
+#life ul{
+    overflow: hidden;
+   padding-bottom: 12px;
+   background: #ffffff;
+}
+#life ul li{
+    text-align: center; border-right: 0px solid #d9d9d9;
+    border-bottom: 0px solid #d9d9d9; 
+    float: left; width: 20%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+#life ul li a.active{
+    background-color: #f2f2f2 !important;
+}
+#life ul li a{
+    display: block; padding-top: 65px; padding-bottom: -2px; color: #4d4d4d;
+    background-repeat: no-repeat;
+    background-position: center 16px;
+    -webkit-background-size: 45px 45px;
+    background-size: 45px 45px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#life ul li.checkin a{
+    background-image: url(../image/011.png);
+}
+#life ul li.shop a{
+    background-image: url(../image/022.png);
+}
+#life ul li.tel a{
+    background-image: url(../image/033.png);
+}
+#life ul li.express a{
+    background-image: url(../image/044.png);
+}
+#life ul li.move a{
+    background-image: url(../image/055.png);
+}
+#life ul li.restaurant a{
+    background-image: url(../image/066.png);
+}
+#life ul li.hospital a{
+    background-image: url(../image/077.png);
+}
+#life ul li.cinema a{
+    background-image: url(../image/088.png);
+}
+#life ul li.jin a{
+    background-image: url(../image/088.png);
+}
+#life ul li:nth-child(4n){
+    border-right: 0; 
+}
+
+#huati h1{
+  height: 15px;
+ 
+  -webkit-background-size: 175px 15px;
+  background-size: 175px 15px;
+}
+#huati{
+	margin-top:-7px;
+  -webkit-box-shadow: 0px 2px 4px #dddcdc;
+  box-shadow: 0px 2px 4px #dddcdc;
+}
+#huati ul{
+    overflow: hidden;
+   padding-bottom: 0px;
+   background: #ffffff;
+   padding-left: 5px;
+}
+#huati ul li{
+    text-align: left; border-right: 1px solid #F0F0F0; 
+    border-bottom: 1px solid #F0F0F0; 
+    float: left; width: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+#huati ul li a.active{
+    background-color: #f5f5f5 !important;
+}
+#huati ul li a{
+    display: block; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: #4d4d4d;
+    background-repeat: no-repeat;
+    background-position: center 16px;
+    -webkit-background-size: 40px 40px;
+    background-size: 40px 40px;
+    font-family:"Agency FB";
+    font-size:15px;
+    overflow: hidden;
+    white-space: nowrap;
+   
+    padding-left: 14px;
+    
+    
+
+    
+   
+      
+
+}
+#huati ul li a img{
+		height: 20px;
+		width: 20px;
+		padding-top: 0px;
+		margin-right: 8px;
+	
+}
+/*slide*/
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+
+.swipe-wrap > div{
+  height: 260px; overflow: hidden; position: relative;
+}
+.swipe-wrap img{
+  height: 260px; width: 100%;
+}
+#slide{
+  height: 260px; margin:0 auto; position: relative; 
+  -webkit-box-shadow: 0px 2px 2px #666;
+  box-shadow: 0px 2px 2px #666;
+ 
+}
+#slide div label {
+  white-space: nowrap; text-overflow:ellipsis; overflow: hidden;
+  background-image: -webkit-linear-gradient(top, rgba(59,59,59,.6), rgba(27,27,27,.6), rgba(50,50,50,.4), rgba(31,31,31,.4));
+  background-image: linear-gradient(top, rgba(59,59,59,.6), rgba(27,27,27,.6), rgba(50,50,50,.4), rgba(31,31,31,.4));
+  position: absolute; left: 0; bottom: 0;
+  width: 100%; height: 40px; line-height: 40px; padding-left: 20px;
+  display:block;
+  color:#fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#pointer{
+
+  position: absolute; right: 10px; bottom: 12px; overflow: hidden;
+  
+}
+#pointer li{
+  float: left; list-style: none;
+}
+#pointer li a{
+  display: inline-block; width: 4px; height: 4px; border-radius: 6px;
+  border:1px solid #55abce; margin-right: 4px;
+}
+#pointer li a.active{
+  background-color: #55abce; 
+}
+
+#activity{
+  margin-top: -7px; 
+  background-color: #f2f2f2;
+}
+#activity h1{
+  height: 12px;
+  background: #f2f2f2 /*url(../image/activity.png) no-repeat 10px 80%;*/
+  -webkit-background-size: 175px 18px;
+  background-size: 175px 18px;
+}
+#activity h2{
+  font-size: 18px; padding-left: 1em; padding-bottom: .8em;
+}
+#activity .item{
+    padding-top: 20px; 
+}
+#activity .pic{
+  overflow: hidden;
+  text-align: center;
+  height: 160px; min-width: 320px; width: 92%; margin:0 auto 20px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px; 
+  background-repeat: no-repeat;
+  background-position: center top;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+#activity p{
+  padding: 1em; padding-top: 0; white-space: nowrap; text-overflow: ellipsis;
+  width: 100%; overflow: hidden; color: #999;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#activity .item{
+  -webkit-box-shadow: 0px 4px 4px #dddcdc;
+  box-shadow: 0px 4px 4px #dddcdc;
+  background-color: #fff; margin-bottom: 20px;
+}
+#activity .item a{
+  display: block;
+}
